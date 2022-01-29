@@ -3,12 +3,11 @@
 //  IDEHospital
 //
 //  Created by Ziad on 12/16/20.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
 //
 
 import UIKit
 
-protocol HomeNurseContactUsVCProtocol: class {
+protocol HomeNurseContactUsVCProtocol: AnyObject {
     func addPlaceholder(_ text: String)
     func showAlert(type: PopUpType, okButtonAction: OkButtonAction)
     func showLoader()

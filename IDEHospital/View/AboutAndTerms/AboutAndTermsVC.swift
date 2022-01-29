@@ -3,12 +3,11 @@
 //  IDEHospital
 //
 //  Created by Ziad on 12/28/20.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
 //
 
 import UIKit
 
-protocol AboutAndTermsVCProtocol: class {
+protocol AboutAndTermsVCProtocol: AnyObject {
     func showLoader()
     func hideLoader()
     func showAlert(type: PopUpType)

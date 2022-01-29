@@ -3,7 +3,6 @@
 //  IDEHospital
 //
 //  Created by Ziad on 12/9/20.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
 //
 
 import UIKit
@@ -11,9 +10,7 @@ import UIKit
 extension UIView {
     func setupBackground(image: UIImage = Asset.background.image) {
         let background = UIImageView(image: image)
-        self.layoutIfNeeded()
-        background.frame = self.bounds
-        background.contentMode =  .scaleAspectFill
+        background.frame = UIScreen.main.bounds
         self.insertSubview(background, at: 0)
     }
 }

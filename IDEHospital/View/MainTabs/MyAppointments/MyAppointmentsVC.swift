@@ -2,13 +2,12 @@
 //  MyAppointmentsVC.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 21/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 21/12/2020.
 //
 
 import UIKit
 
-protocol MyAppointmentsVCProtocol: class {
+protocol MyAppointmentsVCProtocol: AnyObject {
     func showLoader()
     func hideLoader()
     func reloadData()

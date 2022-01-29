@@ -2,8 +2,7 @@
 //  UIViewController+NavControllerSetup.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 11/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 11/12/2020.
 //
 
 import Foundation

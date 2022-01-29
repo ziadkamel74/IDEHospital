@@ -2,13 +2,12 @@
 //  SettingVC.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 28/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 28/12/2020.
 //
 
 import UIKit
 
-protocol SettingVCProtocol: class {
+protocol SettingVCProtocol: AnyObject {
     func goToLogin()
     func goToFavorites()
     func goToAppointment()

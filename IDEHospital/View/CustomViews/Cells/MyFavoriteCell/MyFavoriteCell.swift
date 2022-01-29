@@ -2,14 +2,13 @@
 //  MyFavoriteCell.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 15/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 15/12/2020.
 //
 
 import UIKit
 import Cosmos
 
-protocol CellButtonDelegate: class {
+protocol CellButtonDelegate: AnyObject {
     func deleteTapped(customTableViewCell: UITableViewCell)
     func viewProfile(customTableViewCell: UITableViewCell)
     func viewOnMap(customTableViewCell: UITableViewCell)

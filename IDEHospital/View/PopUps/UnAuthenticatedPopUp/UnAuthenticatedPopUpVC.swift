@@ -3,14 +3,13 @@
 //  IDEHospital
 //
 //  Created by Ziad on 1/10/21.
-//  Copyright © 2021 IDEAcademy. All rights reserved.
 //
 
 import UIKit
 
 typealias AuthFields = (email: String?, password: String?, name: String?, mobile: String?, isVoucherEnabled: Bool, isBookingForAnotherEnabled: Bool, voucher: String?, patientName: String?)
 
-protocol UnAuthenticatedPopUpVCProtocol: class {
+protocol UnAuthenticatedPopUpVCProtocol: AnyObject {
     func showAlert(_ type: PopUpType)
     func showSuccessfullyBookedAlert(message: String)
     func getRegisterationData() -> AuthFields

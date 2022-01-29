@@ -3,7 +3,6 @@
 //  IDEHospital
 //
 //  Created by Ziad on 12/22/20.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
 //
 
 import Foundation

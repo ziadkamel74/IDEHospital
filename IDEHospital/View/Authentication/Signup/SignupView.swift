@@ -2,13 +2,13 @@
 //  SignupView.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 27/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 27/12/2020.
 //
 
 import UIKit
 
 class SignupView: UIView {
+    
     //MARK:- IBOutlets
     @IBOutlet weak var nameTextField: IDEAHospitalTextField!
     @IBOutlet weak var emailTextField: IDEAHospitalTextField!

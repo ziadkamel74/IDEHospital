@@ -2,8 +2,7 @@
 //  EditProfileViewModel.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 14/01/2021.
-//  Copyright © 2021 IDEAcademy. All rights reserved.
+//  Created by Ziad on 14/01/2021.
 //
 
 import Foundation

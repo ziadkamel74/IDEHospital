@@ -3,12 +3,11 @@
 //  IDEHospital
 //
 //  Created by Ziad on 1/4/21.
-//  Copyright © 2021 IDEAcademy. All rights reserved.
 //
 
 import UIKit
 
-protocol ReviewVCProtocol: class {
+protocol ReviewVCProtocol: AnyObject {
     func showLoader()
     func hideLoader()
     func showAlert(_ type: PopUpType, okButtonAction: OkButtonAction)

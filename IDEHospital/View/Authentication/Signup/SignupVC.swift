@@ -2,13 +2,12 @@
 //  SignupVC.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 27/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 27/12/2020.
 //
 
 import UIKit
 
-protocol AuthProtocol: class {
+protocol AuthProtocol: AnyObject {
     func showAlert(_ type: PopUpType, okButtonAction: OkButtonAction)
     func showLoader()
     func hideLoader()

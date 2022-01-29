@@ -2,13 +2,12 @@
 //  EditProfileVC.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 09/01/2021.
-//  Copyright © 2021 IDEAcademy. All rights reserved.
+//  Created by Ziad on 09/01/2021.
 //
 
 import UIKit
 
-protocol EditProfileVCProtocol: class {
+protocol EditProfileVCProtocol: AnyObject {
     func showAlert(_ type: PopUpType, okButtonAction: OkButtonAction)
     func showLoader()
     func hideLoader()
@@ -45,11 +44,6 @@ class EditProfileVC: UIViewController {
     @IBAction func cancelBtnPressed(_ sender: CustomButton) {
         self.dismissCurrent()
     }
-    
-}
-
-// MARK:- Private Methods
-extension EditProfileVC {
     
 }
 

@@ -2,8 +2,7 @@
 //  ResetPasswordView.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 26/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 26/12/2020.
 //
 
 import UIKit

@@ -2,8 +2,7 @@
 //  UIViewController+ShowAlert.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 19/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 19/12/2020.
 //
 
 import UIKit

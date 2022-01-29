@@ -7,8 +7,8 @@ target 'IDEHospital' do
 
   # Pods for IDEHospital
 pod 'Alamofire'
-pod 'SDWebImage'
 pod 'IQKeyboardManagerSwift'
+pod 'SDWebImage'
 pod 'SwiftGen'
 pod 'Cosmos'
 end

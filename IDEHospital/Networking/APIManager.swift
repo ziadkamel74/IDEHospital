@@ -2,8 +2,7 @@
 //  APIManager.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 07/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 07/12/2020.
 //
 
 import Foundation
@@ -146,6 +145,7 @@ extension APIManager {
             case .success(let value):
                 completion(.success(value))
             case .failure(let error):
+                print(error)
                 completion(.failure(error))
             }
         }

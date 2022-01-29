@@ -3,12 +3,11 @@
 //  IDEHospital
 //
 //  Created by Ziad on 1/5/21.
-//  Copyright © 2021 IDEAcademy. All rights reserved.
 //
 
 import UIKit
 
-protocol DoctorProfilePopupsDelegate: class {
+protocol DoctorProfilePopupsDelegate: AnyObject {
     func continueTapped(appointment: Appointment, doctorName: String)
     func confirmTapped()
     func authenticatedAndBooked()
@@ -19,7 +18,7 @@ extension DoctorProfilePopupsDelegate {
     func authenticatedAndBooked() {}
 }
 
-protocol VoucherPopUpVCProtocol: class {
+protocol VoucherPopUpVCProtocol: AnyObject {
     func getVoucherCode() -> String?
     func getPatientName() -> String?
     func showAlert(type: PopUpType)

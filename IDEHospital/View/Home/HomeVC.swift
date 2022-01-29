@@ -2,13 +2,12 @@
 //  HomeVC.swift
 //  IDEHospital
 //
-//  Created by Ahmed Ezzat on 08/12/2020.
-//  Copyright © 2020 IDEAcademy. All rights reserved.
+//  Created by Ziad on 08/12/2020.
 //
 
 import UIKit
 
-protocol HomeVCProtocol: class {
+protocol HomeVCProtocol: AnyObject {
     func showLoader()
     func hideLoader()
     func reloadCollectionView()

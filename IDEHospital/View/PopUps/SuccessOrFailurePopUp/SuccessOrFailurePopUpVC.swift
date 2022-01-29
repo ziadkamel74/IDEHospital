@@ -3,12 +3,11 @@
 //  IDEHospital
 //
 //  Created by Ziad on 1/5/21.
-//  Copyright © 2021 IDEAcademy. All rights reserved.
 //
 
 import UIKit
 
-protocol SuccessOrFailurePopUpOkButtonDelegate: class {
+protocol SuccessOrFailurePopUpOkButtonDelegate: AnyObject {
     func okTapped()
 }
 
